@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PlayMent</string>
+    <string name="description_album_cover">Portada del álbum</string>
+    <string name="label_track">Canción</string>
+    <string name="label_artist">Artista</string>
+    <string name="label_album">Álbum</string>
+    <string name="label_release">Fecha de lanzamiento</string>
+    <string name="label_disc_and_track_number">Disco %1$d, canción %2$d</string>
+    <string name="label_duration">Duración</string>
+    <string name="message_error_connection">Error en la conexión.</string>
+    <string name="format_key_value">%1$s: %2$s</string>
+    <string name="description_background_image">Imágen de fondo</string>
+</resources>

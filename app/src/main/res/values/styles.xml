@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PlayMent_CardView">
+        <item name="android:backgroundTint">@color/PM_dark_gray</item>
+    </style>
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen.IconBackground">
+        <item name="windowSplashScreenBackground">@color/PM_black</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/anim_playment</item>
+        <!--<item name="windowSplashScreenIconBackgroundColor">@color/PM_dark_gray</item>-->
+        <item name="windowSplashScreenAnimationDuration">2000</item>
+        <item name="postSplashScreenTheme">@style/Theme.Mod6Practica2</item>
+    </style>
+</resources>
