@@ -3,11 +3,33 @@
     <style name="PlayMent_CardView">
         <item name="android:backgroundTint">@color/PM_dark_gray</item>
     </style>
+    <style name="PlayMent_EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:backgroundTint">@color/PM_green</item>
+        <item name="android:textColor">@color/PM_white</item>
+        <item name="android:textColorHint">@color/PM_light_gray</item>
+    </style>
+    <style name="PlayMent_TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">@color/PM_white</item>
+        <item name="boxStrokeColor">@color/text_input_box_stroke</item>
+        <item name="startIconTint">@color/text_input_box_stroke</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+    </style>
+    <style name="PlayMent_TextInputEditText" parent="ThemeOverlay.Material3.TextInputEditText">
+        <item name="android:textColor">@color/PM_white</item>
+    </style>
     <style name="Theme.App.Starting" parent="Theme.SplashScreen.IconBackground">
         <item name="windowSplashScreenBackground">@color/PM_black</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/anim_playment</item>
         <!--<item name="windowSplashScreenIconBackgroundColor">@color/PM_dark_gray</item>-->
         <item name="windowSplashScreenAnimationDuration">2000</item>
-        <item name="postSplashScreenTheme">@style/Theme.Mod6Practica2</item>
+        <item name="postSplashScreenTheme">@style/Theme.Mod8Practica2</item>
+    </style>
+    <style name="PlayMent_Dialog" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="android:background">@color/PM_dark_gray</item>
+        <item name="colorPrimary">@color/PM_green</item>
     </style>
 </resources>

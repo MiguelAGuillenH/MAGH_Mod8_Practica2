@@ -1,14 +1,16 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
+    id("com.google.gms.google-services")
+    id("kotlin-parcelize")
 }
 
 android {
-    namespace = "com.magh.mod6practica2"
+    namespace = "com.magh.mod8practica2"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.magh.mod6practica2"
+        applicationId = "com.magh.mod8practica2"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -76,6 +78,10 @@ dependencies {
 
     //Splash screen
     implementation(libs.androidx.core.splashscreen)
+    implementation(libs.firebase.auth)
+
+    //Google Maps
+    implementation(libs.play.services.maps)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

@@ -11,7 +11,6 @@
         android:id="@+id/pbLoading"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_gravity="center"
         android:indeterminateDrawable="@drawable/anim_loading"
         android:indeterminateDuration="1500"
         app:layout_constraintTop_toTopOf="parent"
@@ -140,11 +139,21 @@
             android:id="@+id/txtTrackDuration"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:text="@string/label_duration"
             android:textAlignment="center"
-            app:layout_constraintBottom_toTopOf="@+id/BottomGuideLine"
+            app:layout_constraintBottom_toTopOf="@+id/btnLocation"
             app:layout_constraintEnd_toEndOf="@id/RightGuideLine"
             app:layout_constraintStart_toStartOf="@id/LeftGuideLine" />
+
+        <Button
+            android:id="@+id/btnLocation"
+            android:text="@string/label_show_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/BottomGuideLine"
+            app:layout_constraintStart_toStartOf="@id/LeftGuideLine"
+            app:layout_constraintEnd_toEndOf="@id/RightGuideLine" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
